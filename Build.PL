@@ -22,7 +22,7 @@ my %module_build_args = (
     'Adam Lesperance <lespea@gmail.com>'
   ],
   'dist_name' => 'Dist-Zilla-Plugin-SpellingCommonMistakesTests',
-  'dist_version' => '1.000000',
+  'dist_version' => '1.000001',
   'license' => 'perl',
   'module_name' => 'Dist::Zilla::Plugin::SpellingCommonMistakesTests',
   'recommends' => {},

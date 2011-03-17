@@ -37,7 +37,7 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-SpellingCommonMistakesTests
   homepage: http://search.cpan.org/dist/Dist-Zilla-Plugin-SpellingCommonMistakesTests
   repository: git://github.com/lespea/dist-zilla-plugin-spellingcommonmistakestests.git
-version: 1.000000
+version: 1.000001
 x_Dist_Zilla:
   plugins:
     -

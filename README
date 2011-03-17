@@ -3,12 +3,12 @@ NAME
     common POD spelling mistakes
 
 VERSION
-    version 1.000000
+    version 1.000001
 
 SYNOPSIS
     In your dist.ini file:
 
-        [PodSpellingTests]
+        [SpellingCommonMistakesTests]
 
 DESCRIPTION
     This is an extension of Dist::Zilla::Plugin::InlineFiles, providing the

@@ -67,7 +67,7 @@
          "web" : "https://github.com/lespea/dist-zilla-plugin-spellingcommonmistakestests"
       }
    },
-   "version" : "1.000000",
+   "version" : "1.000001",
    "x_Dist_Zilla" : {
       "plugins" : [
          {

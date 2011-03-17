@@ -4,7 +4,7 @@ use utf8;
 
 package Dist::Zilla::Plugin::SpellingCommonMistakesTests;
 BEGIN {
-  $Dist::Zilla::Plugin::SpellingCommonMistakesTests::VERSION = '1.000000';
+  $Dist::Zilla::Plugin::SpellingCommonMistakesTests::VERSION = '1.000001';
 }
 BEGIN {
   $Dist::Zilla::Plugin::SpellingCommonMistakesTests::AUTHORITY = 'cpan:LESPEA';
@@ -37,13 +37,13 @@ Dist::Zilla::Plugin::SpellingCommonMistakesTests - Release tests for common POD 
 
 =head1 VERSION
 
-version 1.000000
+version 1.000001
 
 =head1 SYNOPSIS
 
 In your dist.ini file:
 
-    [PodSpellingTests]
+    [SpellingCommonMistakesTests]
 
 =head1 DESCRIPTION
 
