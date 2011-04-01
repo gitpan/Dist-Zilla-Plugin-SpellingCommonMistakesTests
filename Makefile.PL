@@ -30,9 +30,10 @@ my %WriteMakefileArgs = (
     'Dist::Zilla::Plugin::InlineFiles' => '0',
     'Moose' => '0',
     'Pod::Spell::CommonMistakes' => '0',
+    'Test::Pod::Spelling::CommonMistakes' => '0',
     'utf8' => '0'
   },
-  'VERSION' => '1.000001',
+  'VERSION' => '1.001000',
   'test' => {
     'TESTS' => 't/*.t'
   }

@@ -57,6 +57,7 @@ eval { $v .= pmver('Module::Build','0.3601') };
 eval { $v .= pmver('Moose','any version') };
 eval { $v .= pmver('Pod::Spell::CommonMistakes','any version') };
 eval { $v .= pmver('Test::More','0.88') };
+eval { $v .= pmver('Test::Pod::Spelling::CommonMistakes','any version') };
 eval { $v .= pmver('utf8','any version') };
 
 

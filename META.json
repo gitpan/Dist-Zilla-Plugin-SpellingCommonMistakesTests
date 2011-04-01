@@ -22,6 +22,9 @@
          "share",
          "example",
          "examples"
+      ],
+      "file" : [
+         "README.html"
       ]
    },
    "prereqs" : {
@@ -41,6 +44,7 @@
             "Dist::Zilla::Plugin::InlineFiles" : 0,
             "Moose" : 0,
             "Pod::Spell::CommonMistakes" : 0,
+            "Test::Pod::Spelling::CommonMistakes" : 0,
             "perl" : "5.008",
             "utf8" : 0
          }
@@ -67,7 +71,7 @@
          "web" : "https://github.com/lespea/dist-zilla-plugin-spellingcommonmistakestests"
       }
    },
-   "version" : "1.000001",
+   "version" : "1.001000",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
@@ -228,6 +232,11 @@
             "version" : "1.001"
          },
          {
+            "class" : "Dist::Zilla::Plugin::SpellingCommonMistakesTests",
+            "name" : "@Author::LESPEA/SpellingCommonMistakesTests",
+            "version" : null
+         },
+         {
             "class" : "Dist::Zilla::Plugin::ExtraTests",
             "name" : "@Author::LESPEA/ExtraTests",
             "version" : "4.200004"
@@ -326,11 +335,6 @@
             "class" : "Dist::Zilla::Plugin::ConfirmRelease",
             "name" : "@Author::LESPEA/ConfirmRelease",
             "version" : "4.200004"
-         },
-         {
-            "class" : "Dist::Zilla::Plugin::SpellingCommonMistakesTests",
-            "name" : "SpellingCommonMistakesTests",
-            "version" : null
          },
          {
             "class" : "Dist::Zilla::Plugin::Signature",

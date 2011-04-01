@@ -22,7 +22,7 @@ my %module_build_args = (
     'Adam Lesperance <lespea@gmail.com>'
   ],
   'dist_name' => 'Dist-Zilla-Plugin-SpellingCommonMistakesTests',
-  'dist_version' => '1.000001',
+  'dist_version' => '1.001000',
   'license' => 'perl',
   'module_name' => 'Dist::Zilla::Plugin::SpellingCommonMistakesTests',
   'recommends' => {},
@@ -31,6 +31,7 @@ my %module_build_args = (
     'Dist::Zilla::Plugin::InlineFiles' => '0',
     'Moose' => '0',
     'Pod::Spell::CommonMistakes' => '0',
+    'Test::Pod::Spelling::CommonMistakes' => '0',
     'perl' => '5.008',
     'utf8' => '0'
   },

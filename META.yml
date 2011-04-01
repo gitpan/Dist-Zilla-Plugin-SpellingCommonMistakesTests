@@ -27,17 +27,20 @@ no_index:
     - share
     - example
     - examples
+  file:
+    - README.html
 requires:
   Dist::Zilla::Plugin::InlineFiles: 0
   Moose: 0
   Pod::Spell::CommonMistakes: 0
+  Test::Pod::Spelling::CommonMistakes: 0
   perl: 5.008
   utf8: 0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-SpellingCommonMistakesTests
   homepage: http://search.cpan.org/dist/Dist-Zilla-Plugin-SpellingCommonMistakesTests
   repository: git://github.com/lespea/dist-zilla-plugin-spellingcommonmistakestests.git
-version: 1.000001
+version: 1.001000
 x_Dist_Zilla:
   plugins:
     -
@@ -165,6 +168,10 @@ x_Dist_Zilla:
       name: '@Author::LESPEA/CPANChangesTests'
       version: 1.001
     -
+      class: Dist::Zilla::Plugin::SpellingCommonMistakesTests
+      name: '@Author::LESPEA/SpellingCommonMistakesTests'
+      version: ~
+    -
       class: Dist::Zilla::Plugin::ExtraTests
       name: '@Author::LESPEA/ExtraTests'
       version: 4.200004
@@ -244,10 +251,6 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::ConfirmRelease
       name: '@Author::LESPEA/ConfirmRelease'
       version: 4.200004
-    -
-      class: Dist::Zilla::Plugin::SpellingCommonMistakesTests
-      name: SpellingCommonMistakesTests
-      version: ~
     -
       class: Dist::Zilla::Plugin::Signature
       name: Signature
